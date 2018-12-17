@@ -1,4 +1,4 @@
-.title {
+h2 {
 	color: red;
 }
 
@@ -6,6 +6,6 @@
 	color: blue;
 }
 
-#contact-us {
+#services {
 	color: green;
 }
