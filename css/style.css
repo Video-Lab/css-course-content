@@ -1,4 +1,4 @@
-h2 {
+h2:hover {
 	color: red;
 }
 
@@ -8,4 +8,20 @@ h2 {
 
 #services {
 	color: green;
+}
+
+li:only-child {
+	color: purple;
+}
+
+td:only-child {
+	color: purple;
+}
+
+#google-link:link {
+	color: blue;
+}
+
+#google-link:visited {
+	color: red;
 }
