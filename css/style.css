@@ -47,6 +47,9 @@ img[src*="../img/"] {
 	border: 10px solid black;
 }
 
-h2[class|=article-subtitle] {
-	background: green;
+h2[class|= g
+
+selector {
+	property: value;
+	property2: value2;
 }
