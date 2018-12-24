@@ -1,5 +1,5 @@
 body {
-	background: rgba(204, 229, 255, 0.4);	
+	background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229, 255, 0.4));	
 }
 
 #title {
@@ -14,7 +14,6 @@ body {
 	height: 400px; /* Ignore this! */
 	width: 70%;	/* Ignore this! */
 
-	background: url("../img/img-2.jpg");
-	background-size: cover;
-	background-color: steelblue;
+	background: radial-gradient(circle, red 20%, blue 40%, green 55%)
+
 }
