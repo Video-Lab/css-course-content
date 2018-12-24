@@ -1,5 +1,5 @@
 body {
-	background: url("../img/img-1.jpg");	
+	background: rgb(204, 229, 255);	
 }
 
 #title {
@@ -10,3 +10,11 @@ body {
 	color: rgb(200, 148, 30);
 }
 
+#service-image {
+	height: 400px; /* Ignore this! */
+	width: 70%;	/* Ignore this! */
+
+	background: url("../img/img-2.jpg");
+	background-size: cover;
+	background-color: steelblue;
+}
