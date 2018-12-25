@@ -1,6 +1,7 @@
 body {
 	background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
-
+	text-transform: uppercase;
+	text-align: justify;
 }
 
 #title {
@@ -18,3 +19,8 @@ body {
 	background: radial-gradient(circle, red 20%, blue 40%, green 55%)
 
 }
+
+.link {
+	text-decoration: underline;
+}
+
