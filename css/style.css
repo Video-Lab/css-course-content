@@ -2,16 +2,17 @@ body {
 	background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
 	font-size: 1.15em;
 	text-align: justify;
-	font-family: "Arial", sans-serif;
+	font-family: "Lato", sans-serif;
 }
 
 #title {
 	color: rgb(186, 133, 9);
-	font-weight: 400;
+	font-family: "Sarabun", sans-serif;
 }
 
 .subtitle {
 	color: rgb(200, 148, 30);
+	font-family: "Sarabun", sans-serif;
 }
 
 #service-image {
