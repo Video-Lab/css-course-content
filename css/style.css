@@ -34,5 +34,8 @@ body {
 #about-us-image {
 	height: 300px;
 	width: 60%;
+
+	border: 6px solid rgb(28, 28, 79);
+	margin: 80px 40px;
 }
 
