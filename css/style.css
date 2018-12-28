@@ -19,8 +19,8 @@ body {
 	height: 400px; /* Ignore this! */
 	width: 70vw;	/* Ignore this! */
 
-	background: radial-gradient(circle, red 20%, blue 40%, green 55%)
-
+	background: radial-gradient(circle, red 20%, blue 40%, green 55%);
+	border: 10px solid rgb(28, 28, 79);
 }
 
 .link {
