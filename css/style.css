@@ -16,12 +16,11 @@ body {
 }
 
 #service-image {
-	height: 400px; /* Ignore this! */
-	width: 70vw;	/* Ignore this! */
+	height: 400px;
+	width: 70vw;
 
 	background: radial-gradient(circle, red 20%, blue 40%, green 55%);
 	border: 10px solid rgb(28, 28, 79);
-
 }
 
 .link {
@@ -44,5 +43,23 @@ body {
 
 .site-table {
 	display: inline-block;
+}
+
+.container {
+	background-color: rgb(250,250,250);
+	margin: 10px;
+
+	display: flex;
+}
+
+.container-item {
+	background: rgb(36, 130, 39);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+
+  width: 70px;
+  line-height: 50px;
+  margin: 10px; 
 }
 
