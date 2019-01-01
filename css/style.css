@@ -48,10 +48,13 @@ body {
 .container {
 	background-color: rgb(250,250,250);
 	margin: 10px;
+	height: 300px;
 
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .container-item {
