@@ -75,9 +75,6 @@ body {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-template-rows: auto auto;
-	grid-gap: 300px 150px;
-/*	justify-content: space-around;
-	align-content: end;*/
 }
 
 .grid-item {
