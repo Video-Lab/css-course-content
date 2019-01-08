@@ -102,9 +102,10 @@ input, textarea {
 	font-size: 20px;
 	color: white;
 	background: rgb(89, 150, 255);
-	-webkit-transition: all 500ms ease;
-	-moz-transition: all 500ms ease;
-	-o-transition: all 500ms ease;
+	transform: matrix(1, 0.45, 0.45, 1, 100, 50);
+	-webkit-transition: background, padding 500ms ease;
+	-moz-transition: background, padding 500ms ease;
+	-o-transition: background, padding 500ms ease;
 }
 
 .submit-button:hover {
