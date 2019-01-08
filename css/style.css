@@ -5,6 +5,11 @@ body {
 	font-family: "Lato", sans-serif;
 }
 
+input, textarea {
+	display: block;
+	margin: 10px;
+}
+
 #title {
 	color: rgb(186, 133, 9);
 	font-family: "Sarabun", sans-serif;
@@ -85,4 +90,24 @@ body {
   width: 70px;
   line-height: 40px;
   margin: 10px; 
+}
+
+.submit-button {
+	margin: 20px 10px;
+	padding: 10px 15px;
+	border: none;
+	text-decoration: none;
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	background: rgb(89, 150, 255);
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+}
+
+.submit-button:hover {
+	background: rgb(147, 187, 255);
+	padding: 20px 30px;
 }
