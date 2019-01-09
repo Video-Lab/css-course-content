@@ -114,7 +114,16 @@ input, textarea {
 }
 
 #about-me {
-	animation-name: red-to-black;
+/*	animation-name: red-to-black;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: 2;
+	animation-direction: alternate-reverse;*/
+
+	-webkit-animation: red-to-black 4s linear 0s 2 alternate-reverse;
+	-moz-animation: red-to-black 4s linear 0s 2 alternate-reverse;
+	-ms-animation: red-to-black 4s linear 0s 2 alternate-reverse;
+	-o-animation: red-to-black 4s linear 0s 2 alternate-reverse;
 }
 
 @keyframes red-to-black {
