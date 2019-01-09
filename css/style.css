@@ -113,6 +113,10 @@ input, textarea {
 	padding: 20px 30px;
 }
 
+#about-me {
+	animation-name: red-to-black;
+}
+
 @keyframes red-to-black {
 	0% {
 		background: red; 
